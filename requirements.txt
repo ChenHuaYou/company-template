@@ -1,13 +1,13 @@
-asgiref @ file:///tmp/build/80754af9/asgiref_1605055780383/work
+asgiref==3.3.1
 certifi==2020.12.5
-cffi @ file:///C:/ci/cffi_1613247308275/work
+cffi==1.14.5
 chardet==4.0.0
 colorama==0.4.4
-cryptography @ file:///C:/ci/cryptography_1616769432139/work
+cryptography==3.4.7
 cssselect==1.1.0
 defusedxml==0.7.1
 diff-match-patch==20200713
-Django @ file:///tmp/build/80754af9/django_1613762073373/work
+Django==3.1.7
 django-ckeditor==6.0.0
 django-crispy-forms==1.11.2
 django-formtools==2.2
@@ -29,26 +29,26 @@ lxml==4.6.3
 MarkupPy==1.14
 MarkupSafe==1.1.1
 mysqlclient==2.0.3
-numpy==1.20.2
+numpy
 odfpy==1.4.1
 olefile==0.46
 opencv-python==4.5.1.48
 openpyxl==3.0.7
-Pillow @ file:///C:/ci/pillow_1617386319301/work
-psycopg2 @ file:///C:/ci/psycopg2_1612298715048/work
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
-PyMySQL @ file:///C:/ci/pymysql_1610464946597/work
+Pillow==8.1.2
+psycopg2==2.8.6
+pycparser==2.20
+PyMySQL==1.0.2
 pyparsing==2.4.7
 pyquery==1.4.3
 python-docx==0.8.10
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+pytz==2021.1
 pywin32==227
 PyYAML==5.4.1
 qrcode==6.1
 reportlab==3.5.66
 requests==2.25.1
 six==1.15.0
-sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
+sqlparse==0.4.1
 tablib==3.0.0
 tqdm==4.60.0
 urllib3==1.26.4
