@@ -37,6 +37,9 @@
 3. 在虚拟环境下，pip install requirements.txt导入库包
 4. 运行项目
 
+pip install virtualenv  
+virtual env ~/env/company-site  
+source ~/env/company-site/bin/activate  
 python manage.py migrate  
 python manage.py runserver 0:28101  
 
