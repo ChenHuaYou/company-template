@@ -36,7 +36,7 @@
 2. 选择一个虚拟环境，或者新建一个conda环境
 3. 在虚拟环境下，pip install requirements.txt导入库包
 4. 运行项目
-
+记得安装 mysql 
 pip install virtualenv  
 virtualenv ~/env/company-site  
 source ~/env/company-site/bin/activate  
