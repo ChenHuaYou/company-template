@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '*lh*yp@h_&*3n9cm)6+@@ol((^lt61^$=%g$*5lzi74dna5z4r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -97,9 +97,9 @@ DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'hengda',
-        'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '106.52.188.166',
+        'USER': 'sammy',
+        'PASSWORD': 'password',
+        'HOST': '192.168.0.128',
         'POST': '3306',
     }
 }
@@ -152,9 +152,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+STATIC_ROOT = "/tmp/www/example.com/static/"
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR,"static"),
 )
 
 # 对图片的路径进行存储
